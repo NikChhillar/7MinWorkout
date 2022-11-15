@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/nikhi/AndroidStudioProjects/7MinWorkout/app/src/main/res/drawable/circular_progressbar.xml" value="0.1945" />
+        <entry key="..\:/Users/nikhi/AndroidStudioProjects/7MinWorkout/app/src/main/res/drawable/circular_progressbar_gray.xml" value="0.1945" />
+        <entry key="..\:/Users/nikhi/AndroidStudioProjects/7MinWorkout/app/src/main/res/drawable/ic_launcher_background.xml" value="0.1945" />
+        <entry key="..\:/Users/nikhi/AndroidStudioProjects/7MinWorkout/app/src/main/res/drawable/item_circular_accent_bg.xml" value="0.1945" />
+        <entry key="..\:/Users/nikhi/AndroidStudioProjects/7MinWorkout/app/src/main/res/drawable/item_circular_color_accent_border.xml" value="0.1945" />
+        <entry key="..\:/Users/nikhi/AndroidStudioProjects/7MinWorkout/app/src/main/res/drawable/item_circular_gray_bg.xml" value="0.1945" />
+        <entry key="..\:/Users/nikhi/AndroidStudioProjects/7MinWorkout/app/src/main/res/drawable/item_circular_gray_bg_updated.xml" value="0.1945" />
+        <entry key="..\:/Users/nikhi/AndroidStudioProjects/7MinWorkout/app/src/main/res/drawable/radiogroup_tab_bg.xml" value="0.1855" />
+        <entry key="..\:/Users/nikhi/AndroidStudioProjects/7MinWorkout/app/src/main/res/drawable/ripple_bg.xml" value="0.1945" />
+        <entry key="..\:/Users/nikhi/AndroidStudioProjects/7MinWorkout/app/src/main/res/drawable/units_tab_selector.xml" value="0.1855" />
+        <entry key="..\:/Users/nikhi/AndroidStudioProjects/7MinWorkout/app/src/main/res/drawable/units_textcolor_selector.xml" value="0.1855" />
+        <entry key="..\:/Users/nikhi/AndroidStudioProjects/7MinWorkout/app/src/main/res/layout/activity_bmi.xml" value="0.25833333333333336" />
+        <entry key="..\:/Users/nikhi/AndroidStudioProjects/7MinWorkout/app/src/main/res/layout/activity_exercise.xml" value="0.25833333333333336" />
+        <entry key="..\:/Users/nikhi/AndroidStudioProjects/7MinWorkout/app/src/main/res/layout/activity_history.xml" value="0.25833333333333336" />
+        <entry key="..\:/Users/nikhi/AndroidStudioProjects/7MinWorkout/app/src/main/res/layout/activity_last.xml" value="0.25833333333333336" />
+        <entry key="..\:/Users/nikhi/AndroidStudioProjects/7MinWorkout/app/src/main/res/layout/activity_main.xml" value="0.25833333333333336" />
+        <entry key="..\:/Users/nikhi/AndroidStudioProjects/7MinWorkout/app/src/main/res/layout/dialog_back_confirm.xml" value="0.25833333333333336" />
+        <entry key="..\:/Users/nikhi/AndroidStudioProjects/7MinWorkout/app/src/main/res/layout/item_exercise_status.xml" value="0.25833333333333336" />
+        <entry key="..\:/Users/nikhi/AndroidStudioProjects/7MinWorkout/app/src/main/res/layout/item_history.xml" value="0.25833333333333336" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

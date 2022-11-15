@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="@dimen/main_screen_main_layout_padding"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/myIV"
+        android:layout_width="match_parent"
+        android:layout_height="220dp"
+        android:layout_marginTop="20dp"
+        android:contentDescription="Start Image"
+        android:src="@drawable/mw"
+        app:layout_constraintBottom_toTopOf="@+id/flS"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <FrameLayout
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_marginTop="20dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:background="@drawable/ripple_bg"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/myIV"
+        android:id="@+id/flS">
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="START"
+            android:layout_gravity="center"
+            android:textColor="@color/colorPrimary"
+            android:textSize="22sp"
+            android:textStyle="bold" />
+
+    </FrameLayout>
+
+    <FrameLayout
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_marginTop="20dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:background="@drawable/item_circular_accent_bg"
+        app:layout_constraintRight_toLeftOf="@id/flHistory"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/flS"
+        android:id="@+id/flBMI">
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="BMI"
+            android:layout_gravity="center"
+            android:textColor="@color/white"
+            android:textSize="22sp"
+            android:textStyle="bold" />
+
+    </FrameLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:text="Calculator"
+        android:textColor="@color/colorAccent"
+        android:textSize="22sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="@id/flBMI"
+        app:layout_constraintStart_toStartOf="@id/flBMI"
+        app:layout_constraintTop_toBottomOf="@id/flBMI"/>
+    <FrameLayout
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_marginTop="20dp"
+        app:layout_constraintLeft_toRightOf="@id/flBMI"
+        android:background="@drawable/item_circular_accent_bg"
+        app:layout_constraintRight_toRightOf="parent"
+        android:layout_gravity="center"
+        android:gravity="center"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/flS"
+        android:id="@+id/flHistory">
+
+
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:src = "@drawable/ic_baseline_calendar_month_24"
+            android:layout_gravity="center" />
+
+    </FrameLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:text="History"
+        android:textColor="@color/colorAccent"
+        android:textSize="22sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="@id/flHistory"
+        app:layout_constraintStart_toStartOf="@id/flHistory"
+        app:layout_constraintTop_toBottomOf="@id/flBMI"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
